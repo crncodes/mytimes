@@ -1,0 +1,118 @@
+body {
+  margin: 0 0;
+}
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  border: thin solid black;
+  position: fixed;
+  z-index: 5;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  padding: 10px 10px;
+  margin: 10px 5px;
+  align-items: center;
+  border: thin solid black;
+}
+
+.logo p{
+  color: MediumAquamarine;
+  padding-left: 10px;
+  padding-right: 20px;
+  width: 75px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+.navigation li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.mainpage {
+  border: thin solid black;
+  display: flex;
+  z-index: 3;
+  position: absolute;
+  top: 145px;
+}
+
+.column1 {
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+
+}
+.tuna {
+  border: thick solid black;
+}
+
+#tunahead {
+  border: thin solid black;
+}
+
+.tunastory {
+  border: medium solid black;
+}
+
+.orca {
+  border: thick solid black;
+}
+
+.earth {
+  border: thin solid black;
+}
+
+.burger {
+  border: thick solid black;
+}
+
+.cameras {
+  border: thin solid black;
+}
+
+.column2 {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+
+}
+.fbi {
+  border: thick solid black;
+}
+
+.cats {
+  border: thin solid black;
+}
+
+.control {
+  border: thin solid black;
+}
+
+.column3 {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+}
+.bites {
+  border: thin solid black;
+}
+
+.cookie {
+  border: thin solid black;
+
+}
+
+.news {
+  border: thin solid black;
+}
